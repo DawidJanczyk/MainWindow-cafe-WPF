@@ -49,5 +49,26 @@ namespace Dessert_Menu
         {
             Close();
         }
+        
+        private void ButtonHome_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow use = new MainWindow();
+            use.Show();
+            this.Close();
+        }
+
+        private void ButtonRecipe_Click(object sender, RoutedEventArgs e)
+        {
+            Recipe use = new Recipe();
+            use.Show();
+            this.Close();
+        }
+
+        private void ButtonHash_Click(object sender, RoutedEventArgs e)
+        {
+            Desserts use = new Desserts();
+            use.Show();
+            this.Close();
+        }
     }
 }
