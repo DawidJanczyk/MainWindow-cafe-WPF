@@ -70,5 +70,12 @@ namespace Dessert_Menu
             use.Show();
             this.Close();
         }
+        
+        private void ButtonContact_Click(object sender, RoutedEventArgs e)
+        {
+            Contact use = new Contact();
+            use.Show();
+            this.Close();
+        }
     }
 }
